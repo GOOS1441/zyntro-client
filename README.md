@@ -1,12 +1,12 @@
 # Zyntro Client
 Fabric client mod for Minecraft 1.21.11 (Java 21).
 
-## Install (players)
-1. Install Fabric Loader 0.18.4+ for 1.21.11 (fabricmc.net/use).
-2. Put Fabric API 0.141.1+1.21.11 and zyntro-client-0.2.0.jar in `.minecraft/mods`.
-3. Launch the Fabric 1.21.11 profile.
+## Use
+- Right Shift opens the Zyntro menu (Combat, Visuals, Performance, HUD).
+- Click a category to see its modules, click a module to turn it on/off.
+- Hold C to zoom (Visuals > Zoom).
 
 ## Build the jar
-1. Install JDK 21 and Gradle 9.2.1+ (or open the folder in IntelliJ IDEA).
-2. Windows: double-click build.bat. Other: `gradle wrapper` then `./gradlew build`.
-3. The jar is in build/libs/ (use zyntro-client-0.2.0.jar, not the -sources one).
+GitHub: push this folder to a repo, the Actions tab builds the jar automatically.
+Local: install JDK 21 + Gradle 9.2.1, run build.bat (or `gradle build`).
+Jar: build/libs/zyntro-client-0.3.0.jar (not the -sources one).

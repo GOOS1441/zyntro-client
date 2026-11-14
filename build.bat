@@ -7,5 +7,5 @@ if errorlevel 1 (
 if not exist gradlew.bat gradle wrapper --gradle-version 9.2.1
 call gradlew.bat build
 echo.
-echo Done! Your jar is in build\libs\zyntro-client-0.2.0.jar
+echo Done! Your jar is in build\libs\zyntro-client-0.3.0.jar
 pause
