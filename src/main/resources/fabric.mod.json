@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "zyntroclient",
+  "version": "${version}",
+  "name": "Zyntro Client",
+  "description": "Zyntro Client - a custom Minecraft client.",
+  "authors": ["Zyntro Team"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.zyntro.client.ZyntroClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
